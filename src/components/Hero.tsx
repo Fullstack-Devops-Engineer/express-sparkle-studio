@@ -35,12 +35,15 @@ const Hero = () => {
                 Call: 9176561900
               </Button>
             </a>
-            <a href="mailto:expressfacilityservice2000@gmail.com">
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6 hover:scale-105 transition-transform bg-white/10 border-white text-white hover:bg-white hover:text-primary shadow-lg backdrop-blur-sm">
-                <Mail className="mr-2 h-5 w-5" />
-                Email Us
-              </Button>
-            </a>
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-lg px-8 py-6 hover:scale-105 transition-transform bg-white/10 border-white text-white hover:bg-white hover:text-primary shadow-lg backdrop-blur-sm"
+              onClick={() => window.location.href = 'mailto:expressfacilityservice2000@gmail.com'}
+            >
+              <Mail className="mr-2 h-5 w-5" />
+              Email Us
+            </Button>
           </div>
 
           <div className="inline-block animate-float">
