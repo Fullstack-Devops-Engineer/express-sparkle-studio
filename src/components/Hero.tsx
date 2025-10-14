@@ -20,22 +20,16 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           {/* Eagle Flying Animation */}
-          <div className="flex items-center justify-center gap-4 mb-6">
+          <div className="flex justify-center mb-8">
             <img 
               src={eagleImage} 
               alt="Flying eagle" 
-              className="w-16 h-16 md:w-20 md:h-20 animate-float opacity-90"
-            />
-            <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground font-['Poppins']">
-              Express Facility Services
-            </h1>
-            <img 
-              src={eagleImage} 
-              alt="Flying eagle" 
-              className="w-16 h-16 md:w-20 md:h-20 animate-float opacity-90"
-              style={{ animationDelay: '1.5s' }}
+              className="w-32 h-32 md:w-40 md:h-40 animate-float drop-shadow-2xl"
             />
           </div>
+          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 font-['Poppins']">
+            Express Facility Services
+          </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 font-medium">
             Professional Floor Polishing & Cleaning Solutions
           </p>
