@@ -40,10 +40,10 @@ const ManagingDirector = () => {
                 
                 <div className="space-y-4 text-muted-foreground">
                   <p className="leading-relaxed">
-                    Leading with excellence and dedication, our Managing Director brings years of expertise in facility management and customer service to ensure the highest quality standards in every project we undertake.
+                    Jegan brings years of expertise in facility management and customer service, ensuring the highest quality standards in every project. His commitment to excellence and attention to detail have made Express Facility Services a trusted name in the industry.
                   </p>
                   <p className="leading-relaxed">
-                    Under his leadership, Express Facility Services has established itself as a trusted name in professional floor polishing and cleaning solutions across residential, commercial, and hospitality sectors.
+                    Under his leadership, we deliver professional floor polishing and cleaning solutions across residential, commercial, and hospitality sectors with unmatched quality and reliability.
                   </p>
                 </div>
                 
